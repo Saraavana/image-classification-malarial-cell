@@ -17,14 +17,18 @@ The task is to train a model that correctly classifies the parasitized from unin
   </div>
 </div> -->
 
-<figure>
+Parasitized                |  Uninfected
+:-------------------------:|:-------------------------:
+![](assets/parasitized.png)|![](assets/uninfected.png)
+
+<!-- <figure>
   <img src="assets/parasitized.png" alt="Parasitized">
   <figcaption>Parasitized</figcaption>
 </figure>
 <figure>
-  <img src="assets/uninfected.png" alt="Uninfected" width="30%">
+  <img src="assets/uninfected.png" alt="Uninfected">
   <figcaption>Uninfected</figcaption>
-</figure>
+</figure> -->
 
 
 Let's take at look at the overview about architecture of CNN:
