@@ -10,10 +10,10 @@ The task is to train a model that correctly classifies the parasitized from unin
 
 <div class="row">
   <div class="column">
-    <img src="assets/parasitized.png" alt="Parasitized" width="100%">
+    <img src="assets/parasitized.png" alt="Parasitized" width="30%">
   </div>
   <div class="column">
-    <img src="assets/uninfected.png" alt="Uninfected" width="100%">
+    <img src="assets/uninfected.png" alt="Uninfected" width="30%">
   </div>
 </div>
 
