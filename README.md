@@ -8,14 +8,24 @@ The task is to train a model that correctly classifies the parasitized from unin
     <img alt="Uninfected" src="assets/uninfected.png" width="40%">
 </p> -->
 
-<div class="row">
+<!-- <div class="row">
   <div class="column">
     <img src="assets/parasitized.png" alt="Parasitized" width="30%">
   </div>
   <div class="column">
     <img src="assets/uninfected.png" alt="Uninfected" width="30%">
   </div>
-</div>
+</div> -->
+
+<figure>
+  <img src="assets/parasitized.png" alt="Parasitized">
+  <figcaption>Parasitized</figcaption>
+</figure>
+<figure>
+  <img src="assets/uninfected.png" alt="Uninfected" width="30%">
+  <figcaption>Uninfected</figcaption>
+</figure>
+
 
 Let's take at look at the overview about architecture of CNN:
 
