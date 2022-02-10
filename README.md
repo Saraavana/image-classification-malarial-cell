@@ -4,7 +4,7 @@ Implementation of malarial cell classification into healthy and parasitized cell
 
 The task is to train a model that correctly classifies the parasitized from uninfected cell. VGG-16 pretrained model is chosen and tranfer learning is performed from the aforementioned dataset.
 
-Parasitized                |  Uninfected
+Parasitized cell           |  Uninfected cell
 :-------------------------:|:-------------------------:
 ![](assets/parasitized.png)|![](assets/uninfected.png)
 
