@@ -3,32 +3,10 @@
 Implementation of malarial cell classification into healthy and parasitized cells using pretrained VGG-16 convolutional neural networks (CNN). The [dataset](https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html) is available at the national library of medicine.
 
 The task is to train a model that correctly classifies the parasitized from uninfected cell. VGG-16 pretrained model is chosen and tranfer learning is performed from the aforementioned dataset.
-<!-- <p align="center">
-    <img alt="Parasitized" src="assets/parasitized.png" width="40%">
-    <img alt="Uninfected" src="assets/uninfected.png" width="40%">
-</p> -->
-
-<!-- <div class="row">
-  <div class="column">
-    <img src="assets/parasitized.png" alt="Parasitized" width="30%">
-  </div>
-  <div class="column">
-    <img src="assets/uninfected.png" alt="Uninfected" width="30%">
-  </div>
-</div> -->
 
 Parasitized                |  Uninfected
 :-------------------------:|:-------------------------:
 ![](assets/parasitized.png)|![](assets/uninfected.png)
-
-<!-- <figure>
-  <img src="assets/parasitized.png" alt="Parasitized">
-  <figcaption>Parasitized</figcaption>
-</figure>
-<figure>
-  <img src="assets/uninfected.png" alt="Uninfected">
-  <figcaption>Uninfected</figcaption>
-</figure> -->
 
 
 Let's take at look at the overview about architecture of CNN:
@@ -37,7 +15,7 @@ Let's take at look at the overview about architecture of CNN:
 Convolutional Neural Network(CNN) is a deep learning algorithm typically used in computer vision and the architecture of is analogous to connectivity of neurons in human brain. By applying suitable filters, a CNN understands the spatial and temporal dependencies in an image. It takes an image as input and updates learnable weights and biases to each group of pixels in an image and correlation among one another. CNN consists of three main components namely, convolutional layers, pooling layer and fully connected layers
 
 <p align="center">
-    <img src="assets/cnn.png" width="40%">
+    <img src="assets/cnn.png" width="65%">
 </p>
 
 ### Convolutional layers
@@ -107,7 +85,7 @@ A sigmoid function is used converts the model's output into a probability score 
 ## Dropout layer
 
 <p align="center">
-    <img src="assets/dropout.png" width="40%">
+    <img src="assets/dropout.png" width="65%">
 </p>
 
 Dropout method is used to prevent a model from overfitting. The Dropout layer randomly sets input units to 0 with a specific frequency rate at each step during training time.  
@@ -122,7 +100,7 @@ The optimization function is a function that changes the internal parameters of 
 Once the model is trained. The model is used to predict on 40 test data samples whether if the cell is infected/uninfected. The obtained predictions are compared with actual value and accuracy of the model is calculated. ROC curve illustrated below tells us the correctness of a trained model. 
 
 <p align="center">
-    <img src="assets/accuracy.png" width="40%">
+    <img src="assets/accuracy.png" width="65%">
 </p>
 
 If the highest peak of roc curve is close to 1, then highest the accuracy of the model. Here, we obtained accuracy of our model as 88%, it means that there is a probability of 12% error in its predictions.
