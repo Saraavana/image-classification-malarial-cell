@@ -10,10 +10,10 @@ The task is to train a model that correctly classifies the parasitized from unin
 
 <div class="row">
   <div class="column">
-    <img src="assets/parasitized.png" alt="Parasitized" style="width:40%">
+    <img src="assets/parasitized.png" alt="Parasitized" width="100%">
   </div>
   <div class="column">
-    <img src="assets/uninfected.png" alt="Uninfected" style="width:40%">
+    <img src="assets/uninfected.png" alt="Uninfected" width="100%">
   </div>
 </div>
 
@@ -79,7 +79,7 @@ As the name indicates, all the nodes present in this layer are connected to all 
 ## Activation Function
 An activation function that is added into an artificial neural network in order to help the network learn complex patterns in the data. When comparing with a neuron-based model that is in our brains, the activation function is at the end deciding what is to be fired to the next neuron. That is exactly what an activation function does in an ANN/CNN as well. It takes an output signal from the previous layer/node and converts it into some form that can be taken as input to the next layer/node.
 
-### RELU
+### ReLU
 
 <p align="center">
     <img src="assets/relu.png" width="40%">
