@@ -3,10 +3,19 @@
 Implementation of malarial cell classification into healthy and parasitized cells using pretrained VGG-16 convolutional neural networks (CNN). The [dataset](https://lhncbc.nlm.nih.gov/LHC-publications/pubs/MalariaDatasets.html) is available at the national library of medicine.
 
 The task is to train a model that correctly classifies the parasitized from uninfected cell. VGG-16 pretrained model is chosen and tranfer learning is performed from the aforementioned dataset.
-<p align="center">
-    <img name="Parasitized" src="assets/parasitized.png" width="40%">
-    <img name="Uninfected" src="assets/uninfected.png" width="40%">
-</p>
+<!-- <p align="center">
+    <img alt="Parasitized" src="assets/parasitized.png" width="40%">
+    <img alt="Uninfected" src="assets/uninfected.png" width="40%">
+</p> -->
+
+<div class="row">
+  <div class="column">
+    <img src="assets/parasitized.png" alt="Parasitized" style="width:40%">
+  </div>
+  <div class="column">
+    <img src="assets/uninfected.png" alt="Uninfected" style="width:40%">
+  </div>
+</div>
 
 Let's take at look at the overview about architecture of CNN:
 
